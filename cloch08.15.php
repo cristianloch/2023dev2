@@ -4,7 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PA - Cristian Loch</title>
-   
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background-color: royalblue;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+            width: 700px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .form-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .form-row label, .container input {
+            flex: 1;
+            box-sizing: border-box;
+            text-align: right;
+        }
+        h1 {
+            margin-top: 0;
+        }
+        .result {
+            color: #F0F8FF;
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 20px;
+            font-size: 30px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+
+    </style>
 </head>
 <body>
     <div class="container">
